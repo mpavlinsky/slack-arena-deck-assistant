@@ -1,0 +1,25 @@
+{
+  "name": "slack-arena-deck-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "watch": {
+    "start-dev": "{src,test}/*.js"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "now": "npm run build && now"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "micro": "^9.3.3",
+    "moment": "^2.24.0",
+    "superagent": "^5.0.2"
+  }
+}
